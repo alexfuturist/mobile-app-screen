@@ -1,0 +1,38 @@
+//===== GENERAL =====//
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #5B5B5B;
+
+    background-color: white;
+
+    overflow-x: hidden;
+}
+
+:root {
+    --ion-font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    color: rgb(0, 0, 0);
+}
+
+.visually_hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.lock {
+    overflow: hidden;
+}

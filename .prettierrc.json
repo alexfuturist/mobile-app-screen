@@ -1,0 +1,10 @@
+{
+  "trailingComma": "es5",
+  "tabWidth": 4,
+  "semi": false,
+  "singleQuote": true,
+  "react/jsx-max-props-per-line": [1, { "when": "always" }],
+  "endOfLine": "auto",
+  "html.format.wrapLineLength": 100,
+  "html.format.wrapAttributes": "aligned-multiple"
+}
