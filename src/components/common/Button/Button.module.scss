@@ -1,0 +1,26 @@
+@import "styles/_variables.scss";
+
+.button {
+    display: block;
+    width: 210px;
+    height: 38px;
+
+    font-size: 16px;
+    line-height: 38px;
+    text-align: center;
+    font-weight: 600;
+    color: #fefefe;
+
+    background-color: #ef5b4c;
+    border-radius: 4px;
+
+    cursor: pointer;
+
+    transition: $item-transition-hover ease-out;
+
+    &:hover {
+        background-color: $color-flat-button-hover;
+
+        transition: $item-transition-hover ease-out;
+    }
+}
